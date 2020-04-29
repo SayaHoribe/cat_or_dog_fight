@@ -4,12 +4,7 @@ import Proptypes from "prop-types";
 import Icon from "react-native-vector-icons/MaterialCommunityIcons";
 class DogScreen extends React.Component {
   render() {
-    return (
-      <View>
-        <Text>aaaaaaaaaaaa</Text>
-        <Icon name="cat" />
-      </View>
-    );
+    return <View></View>;
   }
 }
 export default DogScreen;
