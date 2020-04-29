@@ -1,0 +1,64 @@
+Arguments: 
+  /Users/sayatam/.nodenv/versions/13.2.0/bin/node /Users/sayatam/.nodenv/versions/13.2.0/bin/yarn
+
+PATH: 
+  /Users/sayatam/.nodenv/versions/13.2.0/bin:/usr/local/Cellar/nodenv/1.3.1/libexec:/usr/local/opt/qt/bin:/Users/sayatam/.nodenv/shims:/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.fish.inc:/usr/local/opt/gettext/bin:/usr/local/opt/mysql@5.7/bin:/usr/local/opt/redis@4.0/bin:/usr/local/opt/gettext/bin:/usr/local/opt/redis@4.0/bin:/Users/sayatam/.nodenv/shims:/Users/sayatam/.rbenv/shims:/Users/sayatam/.nodenv/bin:/Users/sayatam/.rbenv/bin:/Users/sayatam/.rbenv/shims:/Users/sayatam/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.19.2
+
+Node version: 
+  13.2.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/sayatam/dvp/cat_or_dog_fight/package.json: Unexpected token / in JSON at position 523
+      at JSON.parse (<anonymous>)
+      at /Users/sayatam/.nodenv/versions/13.2.0/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/sayatam/.nodenv/versions/13.2.0/lib/node_modules/yarn/lib/cli.js:304:30)
+      at /Users/sayatam/.nodenv/versions/13.2.0/lib/node_modules/yarn/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "@react-native-community/masked-view": "0.1.5",
+      "@react-navigation/bottom-tabs": "^5.2.8",
+      "@react-navigation/native": "^5.1.7",
+      "@react-navigation/stack": "^5.2.14",
+      "expo": "~36.0.0",
+      "prettier": "^2.0.1",
+      "react": "~16.9.0",
+      "react-dom": "~16.9.0",
+  //    "react-native": "^0.62.2",
+      "react-native-gesture-handler": "~1.5.0",
+      "react-native-ionicons": "^5.0.0-beta",
+      "react-native-reanimated": "~1.4.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz",
+      "react-native-safe-area-context": "0.6.0",
+      "react-native-screens": "2.0.0-alpha.12",
+      "react-native-vector-icons": "^6.6.0",
+      "react-native-web": "~0.11.7"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.0.0",
+      "babel-preset-expo": "~8.0.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
